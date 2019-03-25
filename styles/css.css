@@ -2424,6 +2424,54 @@ nav {
 
 .section3 {
   height: 100vh; }
+  .section3 .container-fluid {
+    margin-top: 180px; }
+    .section3 .container-fluid .text-wrapper {
+      margin: 20px; }
+      .section3 .container-fluid .text-wrapper .card {
+        text-align: left;
+        height: 180px;
+        border: 1px solid #F4F4F4;
+        box-sizing: border-box;
+        border-radius: 8px;
+        box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.1);
+        padding: 30px; }
+        .section3 .container-fluid .text-wrapper .card h3 {
+          font-size: 25px;
+          margin-bottom: 20px; }
+    .section3 .container-fluid .warpper-work {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: "Sofia Pro bold";
+      font-size: 18px; }
+      .section3 .container-fluid .warpper-work .line {
+        margin: 11px 0; }
+      .section3 .container-fluid .warpper-work .line-left::before {
+        content: "Third Parties";
+        position: absolute;
+        top: -40px;
+        left: -50px; }
+      .section3 .container-fluid .warpper-work .line-right::before {
+        content: "Partners";
+        position: absolute;
+        top: -40px;
+        left: 60px; }
+      .section3 .container-fluid .warpper-work .line-left {
+        margin-right: 10px;
+        position: relative; }
+      .section3 .container-fluid .warpper-work .line-right {
+        margin-left: 10px;
+        position: relative; }
+      .section3 .container-fluid .warpper-work .wrapper-img {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%; }
+        .section3 .container-fluid .warpper-work .wrapper-img img {
+          width: 100%; }
 
 .section4 .warpper {
   padding-left: 150px; }
