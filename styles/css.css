@@ -22,6 +22,9 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline; }
 
+p, h1, h2, h3, span {
+  cursor: default; }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -2415,7 +2418,7 @@ nav {
     margin: 0 20px; }
 
 .section1 .container-fluid {
-  height: 100vh;
+  min-height: 100vh;
   background-image: url("../images/Illustration.png");
   background-repeat: no-repeat;
   background-position: right;
@@ -2558,6 +2561,10 @@ nav {
 
 .section4 .img {
   padding: 0; }
+
+@media (max-width: 768px) {
+  .section4 .warpper {
+    padding: 0; } }
 
 .section5 {
   margin-top: 250px;
