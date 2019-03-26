@@ -2518,6 +2518,30 @@ nav {
       width: 100%; }
       .section3 .container-fluid .warpper-work .wrapper-img img {
         width: 100%; }
+  .section3 .container-fluid .row .wrapper-ul {
+    border-bottom: 2px solid #FF7062;
+    border-left: 2px solid #FF7062;
+    border-right: 2px solid #FF7062;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; }
+    .section3 .container-fluid .row .wrapper-ul .wrapper-ul-text {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      margin: 20px 0; }
+      .section3 .container-fluid .row .wrapper-ul .wrapper-ul-text .bold {
+        font-size: 18px;
+        font-family: "Sofia Pro bold";
+        margin-bottom: 8px; }
+      .section3 .container-fluid .row .wrapper-ul .wrapper-ul-text span {
+        color: #4B4B4B;
+        font-size: 16px; }
+  .section3 .container-fluid .shema {
+    height: 100vh;
+    background-image: url("../images/line-bg.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; }
 
 .section4 .warpper {
   padding-left: 150px; }
