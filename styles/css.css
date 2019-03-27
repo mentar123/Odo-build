@@ -2445,7 +2445,7 @@ nav {
     .section1 .container-fluid .row .warpper {
       margin-left: 0; }
       .section1 .container-fluid .row .warpper h2 {
-        font-size: 76px; }
+        font-size: 3rem; }
       .section1 .container-fluid .row .warpper .button-wrapper .btn-light {
         margin-top: 40px; } }
 
@@ -2479,7 +2479,6 @@ nav {
     margin: 20px; }
     .section3 .container-fluid .text-wrapper .card {
       text-align: left;
-      height: 180px;
       border: 1px solid #F4F4F4;
       box-sizing: border-box;
       border-radius: 8px;
@@ -2518,7 +2517,7 @@ nav {
       display: flex;
       justify-content: center;
       align-items: flex-start;
-      width: 100%; }
+      width: 50%; }
       .section3 .container-fluid .warpper-work .wrapper-img img {
         width: 100%; }
   .section3 .container-fluid .row .wrapper-ul {
@@ -2540,7 +2539,6 @@ nav {
         color: #4B4B4B;
         font-size: 16px; }
   .section3 .container-fluid .shema {
-    min-height: 100vh;
     background-image: url("../images/line-bg.svg");
     background-repeat: no-repeat;
     background-position: center;
@@ -2580,6 +2578,63 @@ nav {
         font-size: 22px; }
     .section3 .container-fluid .shema .card-shema {
       height: auto; }
+  .section3 .container-fluid .wrapper-app-acces {
+    height: 200px; }
+    .section3 .container-fluid .wrapper-app-acces h3 {
+      display: inline-block;
+      font-size: 18px;
+      font-family: "Sofia Pro bold";
+      color: #4B4B4B;
+      background-color: white;
+      z-index: 2;
+      position: relative;
+      padding-right: 70px;
+      padding-left: 30px; }
+    .section3 .container-fluid .wrapper-app-acces .wrapper {
+      height: 80%;
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-end; }
+      .section3 .container-fluid .wrapper-app-acces .wrapper .hexagon {
+        margin: 20px 0;
+        width: 100px;
+        height: 55px;
+        background: #81E8A1;
+        position: relative; }
+      .section3 .container-fluid .wrapper-app-acces .wrapper .hexagon:before,
+      .section3 .container-fluid .wrapper-app-acces .wrapper .hexagon:after {
+        content: "";
+        width: 0;
+        height: 0;
+        position: absolute;
+        left: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent; }
+      .section3 .container-fluid .wrapper-app-acces .wrapper .hexagon:before {
+        top: -25px;
+        border-bottom: 25px solid #81E8A1; }
+      .section3 .container-fluid .wrapper-app-acces .wrapper .hexagon:after {
+        bottom: -25px;
+        border-top: 25px solid #81E8A1; }
+      .section3 .container-fluid .wrapper-app-acces .wrapper .line {
+        position: absolute;
+        top: -105px;
+        left: 48px;
+        z-index: 0; }
+      .section3 .container-fluid .wrapper-app-acces .wrapper .line-saas {
+        top: -95px; }
+      .section3 .container-fluid .wrapper-app-acces .wrapper .line-on-prem {
+        top: -60px; }
+      .section3 .container-fluid .wrapper-app-acces .wrapper .laas, .section3 .container-fluid .wrapper-app-acces .wrapper .saas, .section3 .container-fluid .wrapper-app-acces .wrapper .on-prem {
+        position: absolute;
+        top: 90px;
+        font-size: 18px;
+        font-family: "Sofia Pro bold";
+        color: #4B4B4B; }
+      .section3 .container-fluid .wrapper-app-acces .wrapper .on-prem {
+        left: 20px; }
+      .section3 .container-fluid .wrapper-app-acces .wrapper .laas, .section3 .container-fluid .wrapper-app-acces .wrapper .saas {
+        left: 30px; }
 
 .section4 .warpper {
   padding-left: 150px; }
@@ -2618,7 +2673,7 @@ nav {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        height: 212px;
+        min-height: 212px;
         border: 1px solid #F4F4F4;
         box-sizing: border-box;
         border-radius: 8px;
