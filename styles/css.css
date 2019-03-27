@@ -2596,6 +2596,9 @@ nav {
       justify-content: space-around;
       align-items: flex-end; }
       .section3 .container-fluid .wrapper-app-acces .wrapper .hexagon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         margin: 20px 0;
         width: 100px;
         height: 55px;
@@ -2616,10 +2619,23 @@ nav {
       .section3 .container-fluid .wrapper-app-acces .wrapper .hexagon:after {
         bottom: -25px;
         border-top: 25px solid #81E8A1; }
+      .section3 .container-fluid .wrapper-app-acces .wrapper .wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+      .section3 .container-fluid .wrapper-app-acces .wrapper .wrapper-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: white;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        z-index: 2; }
       .section3 .container-fluid .wrapper-app-acces .wrapper .line {
         position: absolute;
         top: -105px;
-        left: 48px;
+        left: 49px;
         z-index: 0; }
       .section3 .container-fluid .wrapper-app-acces .wrapper .line-saas {
         top: -95px; }
