@@ -2495,8 +2495,7 @@ nav {
         font-size: 25px;
         margin-bottom: 20px; }
       .section3 .container-fluid .text-wrapper .card .wrapper-list {
-        transition-property: height;
-        transition-duration: 3s; }
+        margin-top: 20px; }
       .section3 .container-fluid .text-wrapper .card .show-more {
         margin: 0 auto;
         left: 0;
@@ -2514,6 +2513,16 @@ nav {
         cursor: pointer; }
       .section3 .container-fluid .text-wrapper .card .transform {
         transform: rotate(180deg); }
+    .section3 .container-fluid .text-wrapper ul li i {
+      color: #FF7062; }
+    .section3 .container-fluid .text-wrapper .plane ul li i {
+      color: #601CBA; }
+    .section3 .container-fluid .text-wrapper .plane .show-more {
+      background-color: #601CBA; }
+    .section3 .container-fluid .text-wrapper .network ul li i {
+      color: #81E8A1; }
+    .section3 .container-fluid .text-wrapper .network .show-more {
+      background-color: #81E8A1; }
   .section3 .container-fluid .warpper-work {
     width: 100%;
     display: flex;
