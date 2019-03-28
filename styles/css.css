@@ -2473,12 +2473,19 @@ nav {
     align-items: center;
     padding: 0; } }
 
+.section3 .row {
+  padding: 0; }
+
 .section3 .container-fluid {
   margin-top: 180px; }
   .section3 .container-fluid .text-wrapper {
     margin: 20px; }
     .section3 .container-fluid .text-wrapper .card {
+      display: flex;
+      justify-content: center;
+      position: relative;
       text-align: left;
+      margin: 0 auto;
       border: 1px solid #F4F4F4;
       box-sizing: border-box;
       border-radius: 8px;
@@ -2487,6 +2494,26 @@ nav {
       .section3 .container-fluid .text-wrapper .card h3 {
         font-size: 25px;
         margin-bottom: 20px; }
+      .section3 .container-fluid .text-wrapper .card .wrapper-list {
+        transition-property: height;
+        transition-duration: 3s; }
+      .section3 .container-fluid .text-wrapper .card .show-more {
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: #FF7062;
+        bottom: -20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        cursor: pointer; }
+      .section3 .container-fluid .text-wrapper .card .transform {
+        transform: rotate(180deg); }
   .section3 .container-fluid .warpper-work {
     width: 100%;
     display: flex;
