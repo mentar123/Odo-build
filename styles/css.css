@@ -2563,7 +2563,8 @@ nav {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     background: white;
-    z-index: 5; }
+    position: relative;
+    z-index: 25; }
     .section3 .container-fluid .row .wrapper-ul .wrapper-ul-text {
       display: flex;
       justify-content: center;
